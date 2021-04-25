@@ -1,0 +1,12 @@
+<!-- login.wxml -->
+<view class="container">
+				<view class="login">
+								<form bindsubmit="submit">
+												<view class="title">Demo</view>
+												<input class="input-box" type="text" placeholder="请输入账号" name="username" value="{{form.username}}" confirm-hold hold-keyboard="{{true}}" adjust-position="{{true}}" />
+												<input class="input-box" type="password" placeholder="请输入密码" name="password" value="{{form.password}}" />
+												<view wx:if="{{showError}}" class="error">请输入正确的用户名和密码</view>
+												<button class="login-btn" form-type="submit">登录</button>
+								</form>
+				</view>
+</view>

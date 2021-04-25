@@ -1,0 +1,14 @@
+<view class='{{isFixed?"top fixed":"top"}}' style='{{"height:"+height+"px"}}'>
+    <view class='status' style='{{"height:"+statusBarHeight +"px;"}}'></view>
+    <view class='navbar' style='{{"height:"+navHeight+"px;"}}'>
+        <view class="left" bindtap="navigateBack">
+            <van-icon name="arrow-left" />
+        </view>
+        <view class="right">
+            <view class='title'>
+                <text>{{title}}</text>
+            </view>
+        </view>
+    </view>
+    <slot></slot>
+</view>

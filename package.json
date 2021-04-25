@@ -1,0 +1,22 @@
+{
+  "name": "mini-template",
+  "version": "1.0.0",
+  "description": "小程序原生框架",
+  "main": "app.js",
+  "repository": {
+    "url": "https://github.com/Cloudintheking/mini-template"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cloudintheking",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.6.8",
+    "miniprogram-api-promise": "^1.0.4",
+    "miniprogram-computed": "^4.0.3",
+    "mobx-miniprogram": "^4.13.2",
+    "mobx-miniprogram-bindings": "^2.0.0"
+  },
+  "devDependencies": {}
+}
